@@ -65,7 +65,7 @@ a {
 }
 
 .nav span {
-  color: #fff;
+  color: var(--white);
   font-size: 14px;
   font-weight: 400;
 }
