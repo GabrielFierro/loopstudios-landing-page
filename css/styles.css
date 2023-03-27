@@ -43,3 +43,13 @@ a {
   display: flex;
   flex-flow: row nowrap;
 }
+
+.nav {
+  display: flex;
+  height: 60px;
+  align-items: center;
+}
+
+.nav span {
+  color: #fff;
+}
