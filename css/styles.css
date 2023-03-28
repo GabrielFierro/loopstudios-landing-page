@@ -126,3 +126,10 @@ a {
 .articles-text p {
   color: var(--verydarkgray);
 }
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 135px;
+}
