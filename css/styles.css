@@ -97,7 +97,7 @@ a {
   width: 1000px;
   height: 400px;
   display: flex;
-  margin: 140px;
+  margin: 140px 135px 160px;
 }
 
 .articles-image {
