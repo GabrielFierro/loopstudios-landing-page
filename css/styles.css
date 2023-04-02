@@ -201,3 +201,12 @@ a {
   height: 80px;
   margin-left: 45px;
 }
+
+.footer {
+  width: 100%;
+  background: var(--black);
+  height: 200px;
+  color: var(--white);
+  display: flex;
+  flex-direction: row;
+}
