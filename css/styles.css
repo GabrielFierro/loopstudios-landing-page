@@ -210,3 +210,19 @@ a {
   display: flex;
   flex-direction: row;
 }
+
+.menu {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.footer-categories {
+  display: flex;
+  flex-direction: row;
+}
+
+.menu-bottom {
+  display: flex;
+  flex-direction: row;
+}
