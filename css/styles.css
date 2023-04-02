@@ -186,14 +186,18 @@ a {
   margin-top: -100px;
 }
 
-#title-1 {
-  padding: 0 50px;
+.short-title {
+  box-sizing: border-box;
+  position: relative;
+  width: 145px;
+  height: 80px;
+  margin-left: 45px;
 }
 
-#title-2 {
-  display: flex;
+.large-title {
+  box-sizing: border-box;
   position: relative;
-  margin-top: -200px;
-  height: 100%;
-  padding: 30px 50px;
+  width: 200px;
+  height: 80px;
+  margin-left: 45px;
 }
