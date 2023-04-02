@@ -166,3 +166,34 @@ a {
   gap: 15px;
   margin: 0 135px;
 }
+
+.image {
+  box-sizing: border-box;
+  position: relative;
+}
+
+.image img {
+  width: auto;
+  height: 100%;
+}
+
+.grid h3 {
+  color: var(--white);
+  font-size: 32px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-top: -100px;
+}
+
+#title-1 {
+  padding: 0 50px;
+}
+
+#title-2 {
+  display: flex;
+  position: relative;
+  margin-top: -200px;
+  height: 100%;
+  padding: 30px 50px;
+}
