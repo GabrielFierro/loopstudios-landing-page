@@ -208,7 +208,7 @@ a {
   height: 200px;
   color: var(--white);
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .menu {
