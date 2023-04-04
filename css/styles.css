@@ -229,12 +229,12 @@ a {
   padding: 0 5px;
 }
 
-.footer-categories {
+.menu-bottom {
   display: flex;
   flex-direction: row;
 }
 
-.menu-bottom {
+.footer-categories {
   display: flex;
   flex-direction: row;
 }
