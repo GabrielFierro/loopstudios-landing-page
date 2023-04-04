@@ -205,7 +205,7 @@ a {
 .footer {
   width: 100%;
   background: var(--black);
-  height: 270px;
+  height: 230px;
   color: var(--white);
   display: flex;
   flex-direction: column;
@@ -218,11 +218,11 @@ a {
 }
 
 .logo {
-  margin: 70px 140px;
+  margin: 70px 140px 10px;
 }
 
 .footer-social {
-  margin: 70px 110px;
+  margin: 70px 110px 10px;
 }
 
 .footer-social a {
@@ -239,11 +239,13 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin: 0 130px;
+  margin: 0 120px;
 }
 
 .footer-categories p {
-  padding: 0 10px;
+  padding: 0 20px;
+  font-size: 14px;
+  letter-spacing: 2px;
 }
 
 .attribution {
