@@ -217,6 +217,18 @@ a {
   justify-content: space-between;
 }
 
+.logo {
+  margin: 70px 140px;
+}
+
+.footer-social {
+  margin: 70px 110px;
+}
+
+.footer-social a {
+  padding: 0 5px;
+}
+
 .footer-categories {
   display: flex;
   flex-direction: row;
