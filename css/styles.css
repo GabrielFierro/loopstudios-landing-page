@@ -205,7 +205,7 @@ a {
 .footer {
   width: 100%;
   background: var(--black);
-  height: 200px;
+  height: 270px;
   color: var(--white);
   display: flex;
   flex-direction: column;
