@@ -80,14 +80,13 @@ a {
 }
 
 .main {
-  box-sizing: border-box;
   width: 650px;
   height: 250px;
-  position: relative;
-  top: 19%;
+  position: absolute;
+  bottom: 23%;
   left: 10%;
   border: 2px solid var(--white);
-  padding: 0px 60px;
+  padding: 0 60px;
 }
 
 .main-text {
