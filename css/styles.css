@@ -283,14 +283,13 @@ a {
   }
 
   .main {
-    box-sizing: border-box;
-    width: 450px;
-    height: 200px;
-    position: relative;
-    top: 19%;
-    left: 10%;
+    width: 400px;
+    height: 250px;
+    position: absolute;
+    bottom: 30%;
+    left: 15%;
     border: 2px solid var(--white);
-    padding: 0px 60px;
+    padding: 10px 50px;
   }
 
   .main-text {
@@ -300,6 +299,10 @@ a {
     font-weight: 300;
     text-transform: uppercase;
     margin-top: 30px;
+  }
+
+  .articles-image img {
+    padding: 50px 70px 0;
   }
 }
 
@@ -388,10 +391,10 @@ a {
   .main {
     box-sizing: border-box;
     justify-content: center;
-    width: 380px;
+    width: 300px;
     height: 200px;
     border: 2px solid var(--white);
-    padding: 0 60px 5px;
+    padding: 0 20px;
   }
 
   .main.ocultar {
