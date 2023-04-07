@@ -330,15 +330,6 @@ a {
     z-index: 10;
   }
 
-  /* .nav {
-    display: none;
-    height: 60px;
-    width: 400px;
-    align-items: center;
-    justify-content: space-between;
-    margin-left: 50px;
-  } */
-
   .abrir-menu,
   .cerrar-menu {
     display: block;
