@@ -107,23 +107,31 @@ a {
   width: 100%;
   height: 100vh;
   display: flex;
+  position: relative;
   margin-bottom: 150px;
-  padding: 140px 135px 0;
+  border: 1px solid peru;
+}
+
+.articles {
+  display: flex;
+  flex-direction: row;
 }
 
 .articles-image img {
   width: 100%;
   height: 100%;
+  padding: 140px 135px 0;
 }
 
 .articles-text {
   width: 600px;
   height: 350px;
   background: var(--white);
-  margin-top: -290px;
   position: absolute;
-  right: 3%;
+  bottom: 0;
+  right: 5%;
   padding: 40px 65px 0 90px;
+  margin-bottom: -50px;
 }
 
 .articles-text h2 {
