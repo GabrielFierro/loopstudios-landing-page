@@ -116,10 +116,14 @@ a {
   flex-direction: row;
 }
 
-.articles-image img {
-  width: 100%;
+.articles-image {
+  width: 700px;
   height: 100%;
-  padding: 140px 135px 0;
+  background-image: url(../images/mobile/image-interactive.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  margin: 145px 140px;
 }
 
 .articles-text {
