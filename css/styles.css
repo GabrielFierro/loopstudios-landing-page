@@ -221,18 +221,25 @@ a {
   display: flex;
   width: 100%;
   justify-content: space-between;
+  padding: 50px 0 20px;
 }
 
 .footer-logo {
-  margin: 70px 140px 10px;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  margin-left: -15px;
 }
 
 .footer-social {
-  margin: 70px 110px 10px;
+  width: 380px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer-social a {
-  padding: 0 5px;
+  padding: 0 8px;
 }
 
 .menu-bottom {
@@ -244,8 +251,8 @@ a {
 .footer-categories {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  margin: 0 120px;
+  justify-content: center;
+  width: 735px;
 }
 
 .footer-categories p {
@@ -255,7 +262,9 @@ a {
 }
 
 .attribution {
-  margin: 0 110px;
+  display: flex;
+  justify-content: center;
+  width: 500px;
 }
 
 .attribution p {
