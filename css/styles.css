@@ -278,11 +278,6 @@ a {
 }
 
 @media (max-width: 900px) {
-  .header {
-    width: 100%;
-    height: 100px;
-  }
-
   .header-menu {
     height: 100px;
     position: relative;
