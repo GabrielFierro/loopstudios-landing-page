@@ -395,4 +395,10 @@ a {
     text-transform: uppercase;
     margin-top: 30px;
   }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(1, 100px);
+    margin: 0 20px 200px;
+  }
 }
