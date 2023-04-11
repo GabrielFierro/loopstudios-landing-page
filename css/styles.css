@@ -183,16 +183,6 @@ a {
   margin: 0 135px 200px;
 }
 
-.image {
-  box-sizing: border-box;
-  position: relative;
-}
-
-.image img {
-  width: auto;
-  height: 100%;
-}
-
 .grid h3 {
   color: var(--white);
   font-size: 32px;
