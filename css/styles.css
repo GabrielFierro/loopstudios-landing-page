@@ -122,7 +122,7 @@ a {
 .articles-image {
   width: 700px;
   height: 100%;
-  background-image: url(../images/mobile/image-interactive.jpg);
+  background-image: url(../images/desktop/image-interactive.jpg);
   background-repeat: no-repeat;
   background-size: contain;
   position: relative;
