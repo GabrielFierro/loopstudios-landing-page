@@ -53,13 +53,16 @@ a {
   margin-top: 30px;
 }
 
+.header-logo {
+  width: 330px;
+}
+
 .nav {
   display: flex;
   height: 60px;
-  width: 350px;
+  width: 480px;
   align-items: center;
-  justify-content: space-between;
-  margin-left: 260px;
+  justify-content: flex-end;
 }
 
 .nav-list {
@@ -281,9 +284,22 @@ a {
   .header-menu {
     height: 100px;
     position: relative;
-    justify-content: space-around;
+    justify-content: space-between;
     display: flex;
     margin-top: 30px;
+  }
+
+  .header-logo {
+    width: 200px;
+    margin-left: 10px;
+  }
+
+  .nav {
+    display: flex;
+    height: 60px;
+    width: 400px;
+    align-items: center;
+    justify-content: flex-start;
   }
 
   .main {
@@ -322,15 +338,22 @@ a {
   }
 
   .header-menu {
-    border: 1px solid peru;
-    width: 470px;
+    width: 100%;
     display: flex;
+    flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-    padding: 2rem;
+    justify-content: space-around;
+    padding: 4rem;
+    margin: 0;
+  }
+
+  .header-logo {
+    width: 200px;
+    margin-left: -60px;
   }
 
   .header-logo.superponer {
+    position: relative;
     z-index: 10;
   }
 
@@ -343,14 +366,6 @@ a {
     cursor: pointer;
   }
 
-  .abrir-menu {
-    color: #1c1c1c;
-  }
-
-  .cerrar-menu {
-    color: #ececec;
-  }
-
   .nav {
     opacity: 0;
     visibility: hidden;
@@ -358,15 +373,15 @@ a {
     flex-direction: column;
     align-items: flex-end;
     justify-content: flex-start;
-    gap: 1rem;
     position: absolute;
     top: 0;
     right: 0;
-    bottom: 0;
+    left: 0;
     background-color: var(--black);
     box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
     height: 100vh;
     width: 100vw;
+    padding: 30px;
   }
 
   .nav.visible {
@@ -374,9 +389,17 @@ a {
     visibility: visible;
   }
 
+  .nav-position {
+    position: absolute;
+    top: 20%;
+    left: 0;
+  }
+
   .nav-list {
+    display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: flex-start;
+    justify-content: flex-start;
   }
 
   .nav-list li a {
