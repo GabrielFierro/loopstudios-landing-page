@@ -362,6 +362,22 @@ a {
     font-weight: 300;
     text-transform: uppercase;
   }
+
+  .flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 135px 150px;
+  }
+
+  .flex h2 {
+    color: var(--black);
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
 }
 
 @media (max-width: 550px) {
