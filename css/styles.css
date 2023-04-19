@@ -380,6 +380,15 @@ a {
   }
 }
 
+@media (max-width: 790px) {
+  .footer-categories {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+  }
+}
+
 @media (max-width: 550px) {
   .container {
     display: flex;
