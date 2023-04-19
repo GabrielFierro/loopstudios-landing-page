@@ -526,7 +526,6 @@ a {
     color: var(--white);
     display: flex;
     flex-direction: column;
-    border: 2px solid red;
   }
 
   .footer-menu {
@@ -542,7 +541,6 @@ a {
     display: flex;
     position: absolute;
     margin-top: 300px;
-    border: 2px solid red;
   }
 
   .menu-bottom {
