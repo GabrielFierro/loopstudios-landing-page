@@ -378,6 +378,10 @@ a {
     font-weight: 400;
     text-transform: uppercase;
   }
+
+  .footer {
+    height: 450px;
+  }
 }
 
 @media (max-width: 790px) {
