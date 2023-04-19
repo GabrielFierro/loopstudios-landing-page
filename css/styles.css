@@ -387,7 +387,7 @@ a {
     background-image: url(../images/mobile/image-hero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 550px;
+    width: auto;
     height: 100vh;
   }
 
