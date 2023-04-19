@@ -447,8 +447,7 @@ a {
     background-color: var(--black);
     box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
     height: 100vh;
-    width: 100vw;
-    padding: 30px;
+    width: 100%;
   }
 
   .nav.visible {
@@ -499,6 +498,7 @@ a {
   .articles-image {
     width: 80%;
     height: 200px;
+    margin: 50px 20px 0px;
   }
 
   .articles-text {
@@ -536,6 +536,13 @@ a {
     padding: 50px 0 20px;
   }
 
+  .footer-logo {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    margin-left: -15px;
+  }
+
   .footer-social {
     width: 380px;
     display: flex;
@@ -550,8 +557,9 @@ a {
   }
 
   .attribution {
-    width: 450px;
+    width: 350px;
     margin-top: 50px;
+    margin-left: 40px;
   }
 }
 
