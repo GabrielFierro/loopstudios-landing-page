@@ -282,11 +282,7 @@ a {
 
 @media (max-width: 900px) {
   .header-menu {
-    height: 100px;
-    position: relative;
     justify-content: space-between;
-    display: flex;
-    margin-top: 30px;
   }
 
   .header-logo {
@@ -295,42 +291,28 @@ a {
   }
 
   .nav {
-    display: flex;
-    height: 60px;
     width: 400px;
-    align-items: center;
     justify-content: flex-start;
   }
 
   .main {
     width: 400px;
-    height: 250px;
-    position: absolute;
     bottom: 30%;
     left: 15%;
-    border: 2px solid var(--white);
     padding: 10px 50px;
   }
 
   .main-text {
-    color: var(--white);
     font-size: 42px;
-    font-family: "Josefin Sans", sans-serif;
-    font-weight: 300;
-    text-transform: uppercase;
-    margin-top: 30px;
   }
 
   .section {
-    width: 100%;
     height: 100%;
-    display: flex;
     flex-direction: column;
     margin-bottom: 50px;
   }
 
   .articles {
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -340,8 +322,6 @@ a {
     width: 70%;
     height: 400px;
     background-image: url(../images/mobile/image-interactive.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
     margin: 50px 50px 0px;
   }
 
@@ -351,32 +331,19 @@ a {
     position: relative;
     width: 70%;
     height: 500px;
-    background: var(--white);
-    padding: 40px 65px 0 90px;
   }
 
   .articles-text h2 {
-    color: var(--black);
     font-size: 28px;
-    font-family: "Josefin Sans", sans-serif;
-    font-weight: 300;
-    text-transform: uppercase;
   }
 
   .flex {
-    display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
     margin: 0 135px 150px;
   }
 
   .flex h2 {
-    color: var(--black);
-    font-family: "Josefin Sans", sans-serif;
     font-size: 32px;
-    font-weight: 400;
-    text-transform: uppercase;
   }
 
   .footer {
@@ -386,7 +353,6 @@ a {
 
 @media (max-width: 790px) {
   .footer-categories {
-    display: flex;
     flex-direction: column;
     align-items: center;
     width: 400px;
@@ -395,21 +361,13 @@ a {
 
 @media (max-width: 550px) {
   .container {
-    display: flex;
-    flex-direction: column;
     background-image: url(../images/mobile/image-hero.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
     width: auto;
-    height: 100vh;
   }
 
   .header-menu {
     width: 100%;
-    display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
     padding: 4rem;
     margin: 0;
   }
@@ -436,7 +394,6 @@ a {
   .nav {
     opacity: 0;
     visibility: hidden;
-    display: flex;
     flex-direction: column;
     align-items: flex-end;
     justify-content: flex-start;
@@ -477,7 +434,6 @@ a {
     justify-content: center;
     width: 300px;
     height: 200px;
-    border: 2px solid var(--white);
     padding: 0 20px;
   }
 
@@ -487,12 +443,7 @@ a {
   }
 
   .main-text {
-    color: var(--white);
     font-size: 38px;
-    font-family: "Josefin Sans", sans-serif;
-    font-weight: 300;
-    text-transform: uppercase;
-    margin-top: 30px;
   }
 
   .articles-image {
@@ -507,7 +458,6 @@ a {
     position: relative;
     width: 100%;
     height: 300px;
-    background: var(--white);
     padding: 0px 5px 0 50px;
   }
 
@@ -521,38 +471,25 @@ a {
   }
 
   .footer {
-    background: var(--black);
     height: 450px;
-    color: var(--white);
-    display: flex;
-    flex-direction: column;
   }
 
   .footer-menu {
-    display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
-    padding: 50px 0 20px;
   }
 
   .footer-logo {
     width: 300px;
-    display: flex;
-    justify-content: center;
-    margin-left: -15px;
   }
 
   .footer-social {
-    width: 380px;
-    display: flex;
     position: absolute;
     margin-top: 300px;
   }
 
   .menu-bottom {
     flex-direction: column;
-    justify-content: space-between;
     margin-bottom: 50px;
   }
 
