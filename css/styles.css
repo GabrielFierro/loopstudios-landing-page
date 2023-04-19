@@ -182,9 +182,9 @@ a {
 .grid {
   max-width: 1075px;
   display: grid;
-  grid-template-rows: repeat(2, 1fr);
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 0 20px;
+
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 1.25rem;
   margin: 0 auto 175px;
 }
 
@@ -199,6 +199,7 @@ a {
 
 .grid .image img {
   width: 100%;
+  height: 100%;
 }
 
 .short-title {
@@ -481,12 +482,6 @@ a {
     font-weight: 300;
     text-transform: uppercase;
     margin-top: 30px;
-  }
-
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(1, 100px);
-    margin: 0 20px 200px;
   }
 }
 
