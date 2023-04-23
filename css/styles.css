@@ -256,6 +256,10 @@ a {
   align-items: center;
 }
 
+.footer-social:hover {
+  cursor: pointer;
+}
+
 .footer-social a {
   padding: 0 8px;
 }
@@ -277,6 +281,11 @@ a {
   padding: 0 20px;
   font-size: 14px;
   letter-spacing: 2px;
+}
+
+.footer-categories p:hover {
+  border-bottom: 1px solid var(--white);
+  cursor: pointer;
 }
 
 .attribution {
