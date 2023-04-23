@@ -172,6 +172,11 @@ a {
   text-transform: uppercase;
 }
 
+.flex button:hover {
+  background-color: var(--black);
+  color: var(--white);
+}
+
 .flex button {
   color: var(--black);
   width: 130px;
